@@ -1,0 +1,40 @@
+- Inicio con FE
+- Crear conexión
+- Habilitar menú
+- Establecer un patron de repositorio
+- Crear crud de entidades simples
+    - areas
+    - centro de costo
+    - consultor
+    - estado
+    - modo
+    - tipo incidencia
+    - tipo de tarea
+    - unidad de negocio
+    - urgencia
+    - version
+    - via
+- Crear crud de entidades con referencias
+    - Clientes
+    - Contratos
+    - Contactos
+    - Usuarios
+- Crear Crud de entidades complejas
+    - Incidencias
+    - Tareas
+    - Archivos Adjuntos
+    - Chats
+    - Soluciones
+    - Problemas
+    - Foros
+    - Base de conocimiento
+    - Encuestas
+    - Preguntas
+- Crear funcionalidad estandar
+    - Tablas dinamicas
+    - Filtros
+    - Busquedas
+    - Perfiles
+    - Menu
+    - Permisos
+

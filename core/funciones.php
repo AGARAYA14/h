@@ -31,12 +31,12 @@ class funciones {
 
     /*----------  Funcion para mostrar texto de ERROR ----------*/
     public static function notifica_mensaje ($texto,$tipodato) {
-         return "<strong> {$texto} </strong> No es de tipo ".strtolower($tipodato);
+        return "<strong> {$texto} </strong> No es de tipo ".strtolower($tipodato);
          //return "{$texto} No es de tipo ".strtolower($tipodato)." Por favor verificar";
     }
 
     public static function notifica_mensaje2 ($texto,$tipodato) {
-         return "{$texto} : No es de tipo ".strtolower($tipodato);
+        return "{$texto} : No es de tipo ".strtolower($tipodato);
          //return "{$texto} No es de tipo ".strtolower($tipodato)." Por favor verificar";
     }
 
@@ -60,7 +60,7 @@ class funciones {
     /*----------  Encriptar variable ----------*/
     public static function encripta($variable) {
 
-        return crypt($variable, '$2a$07$asxx54ahjppf45sd87a5a4dDDGsystemdev$');        
+        return crypt($variable, '$2a$07$asxx54ahjppf45sd87a5a4dDDGsystemdev$');
     }
 
     /*----------  Funcion para encriptar ----------*/
@@ -84,7 +84,7 @@ class funciones {
     /*----------  Funcion para desencriptar y devolver numerico (ID) ----------*/
     public static function get_id_num ($valor):int{
         $rspta=0;
-        $rspta= (is_numeric($valor)) ? $valor : (int) funciones::var_desencripta($valor); 
+        $rspta= (is_numeric($valor)) ? $valor : (int) funciones::var_desencripta($valor);
         return $rspta;
     }
 
@@ -122,7 +122,7 @@ class funciones {
     /*----------  rECIBIR UN CHECK  ----------*/
     public static function var_check($variable) {
         if($variable =="on"){
-             return 1; 
+            return 1;
             } else {
             return 0;
             }
@@ -159,7 +159,7 @@ class funciones {
 
         $resultado = array();
 
-        if($valor != null) 
+        if($valor != null)
         {
             foreach($array as $fila)
             { $resultado[trim($fila[$indice])] = trim($fila[$valor]); }
@@ -173,30 +173,29 @@ class funciones {
     }
 
     /*---------- Funcion para devolver en formato xML ----------*/
-    public static function arrayToXml($array, $rootElement = null, $xml = null) { 
-        $_xml = $xml; 
-          
-        // If there is no Root Element then insert root 
-        if ($_xml === null) { 
-            $_xml = new SimpleXMLElement($rootElement !== null ? $rootElement : '<root/>'); 
-        } 
-          
-        // Visit all key value pair 
-        foreach ($array as $k => $v) 
-        {    
-            // If there is nested array then 
-            if (is_array($v)) 
-                {   
-                // Call function for nested array 
-                arrayToXml($v, $k, $_xml->addChild($k)); 
-                }        
-            else {    
-                // Simply add child element.  
-                $_xml->addChild($k, $v); 
-            } 
-        }   
+    public static function arrayToXml($array, $rootElement = null, $xml = null) {
+        $_xml = $xml;
+
+        // If there is no Root Element then insert root
+        if ($_xml === null) {
+            $_xml = new SimpleXMLElement($rootElement !== null ? $rootElement : '<root/>');
+        }
+        // Visit all key value pair
+        foreach ($array as $k => $v)
+        {
+            // If there is nested array then
+            if (is_array($v))
+                {
+                // Call function for nested array
+                arrayToXml($v, $k, $_xml->addChild($k));
+                }
+            else {
+                // Simply add child element.
+                $_xml->addChild($k, $v);
+            }
+        }
         return $_xml->asXML(); 
-    } 
+    }
 
 
     /*=============================================

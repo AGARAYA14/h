@@ -1,0 +1,15 @@
+2020-08-06 15:39:32 >>> Sintaxis incorrecta cerca de 'prueba'.
+2020-08-06 15:42:16 >>> Sintaxis incorrecta cerca de 'prueba'.
+2020-08-06 16:06:21 >>> Sintaxis incorrecta cerca de 'prueba'.
+2020-08-06 16:08:56 >>> No se encontró el procedimiento almacenado 'select pkid as id, modulo, orden from Modulo where ( modulo like %prueba% 	 )'.
+2020-08-06 16:46:44 >>> Sintaxis incorrecta cerca de 'prueba'.
+2020-08-06 16:46:57 >>> Sintaxis incorrecta cerca de 'prueba'.
+2020-08-06 17:04:51 >>> Sintaxis incorrecta cerca de 'prueba'.
+2020-08-06 17:11:27 >>> Sintaxis incorrecta cerca de 'prueba'.
+2020-08-06 17:45:12 >>> Sintaxis incorrecta cerca de la palabra clave 'select'.
+2020-08-06 17:45:28 >>> Sintaxis incorrecta cerca de la palabra clave 'select'.
+2020-08-06 18:36:52 >>> Sintaxis incorrecta cerca de 'modulo'.
+2020-08-06 23:33:39 >>> Sintaxis incorrecta cerca de 'modulo'.
+2020-08-06 23:40:40 >>> Sintaxis incorrecta cerca de 'modulo'.
+2020-08-06 23:41:53 >>> Sintaxis incorrecta cerca de '='.
+2020-08-06 23:42:22 >>> Sintaxis incorrecta cerca de '='.

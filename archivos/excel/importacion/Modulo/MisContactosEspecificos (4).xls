@@ -1,0 +1,8 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Lista de Contacto</title>
+	<head>
+	<body>
+		<table border="1"><tr><td colspan="5">Lista de Contactos</tr></tr><tr><td><b>ID</b></td><td><b>Nombres</b></td><td><b>E-mail</b></td><td><b>Asunto</b></td><td><b>Fecha</b></td></tr>

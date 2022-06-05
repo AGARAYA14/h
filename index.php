@@ -11,6 +11,7 @@ require_once CORE."notificaciones.php";
 require_once CONTROLADORES."plantilla.controlador.php";
 require_once CONTROLADORES."sesion.controlador.php";
 require_once CONTROLADORES."contenedor_vista.controlador.php";
+require_once CONTROLADORES."perfil.controlador.php";
 
 require_once CONTROLADORES."parametros.controlador.php";
 require_once CONTROLADORES."menu.controlador.php";
@@ -22,10 +23,11 @@ require_once MODELOS."parametros.modelo.php";
 require_once MODELOS."menu.modelo.php";
 require_once MODELOS."usuarios.modelo.php";
 require_once MODELOS."modulo.modelo.php";
-
+require_once MODELOS."perfil.modelo.php";
+/*
 require_once INCLUDES."Excel_PHP/PHPExcel/IOFactory.php";
 require_once INCLUDES."Excel_PHP/PHPExcel.php";
-/*
+
 require_once "system/config.php";
 
 
@@ -40,7 +42,7 @@ require_once "system/config.php";
 
 
 require_once CONTROLLERS."menu.controlador.php";
-require_once CONTROLLERS."perfil.controlador.php";
+
 require_once CONTROLLERS."rol.controlador.php";
 
 require_once CORE."globales.php";
@@ -59,7 +61,7 @@ require_once CORE."helpers.php";
 
 
 require_once MODELS."menu.modelo.php";
-require_once MODELS."perfil.modelo.php";
+
 require_once MODELS."rol.modelo.php";
 
 */

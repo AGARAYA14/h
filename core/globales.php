@@ -17,9 +17,10 @@ define('DS'         , DIRECTORY_SEPARATOR);
 define('ROOT'       , getcwd().DS);
 
 const CORE          = ROOT.'core'.DS;
-const CONTROLADORES = ROOT.'controladores'.DS;
-const MODELOS       = ROOT.'modelos'.DS;
-const VISTAS        = ROOT.'vistas'.DS;
+const CONTROLADORES = ROOT.'controllers'.DS;
+const MODELOS       = ROOT.'models'.DS;
+const VISTAS        = ROOT.'views'.DS;
+
 const INCLUDES      = ROOT.'extensiones'.DS;
 const ARCHIVOS      = ROOT.'archivos'.DS;
 // archivos/excel/exportacion/plantilla

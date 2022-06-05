@@ -1,0 +1,4 @@
+2020-04-06 17:42:28 >>> Sintaxis incorrecta cerca de ')'.
+2020-04-06 18:28:53 >>> Sintaxis incorrecta cerca de ')'.
+2020-04-06 18:32:55 >>> El nombre de columna 'alex' no es válido.
+2020-04-06 18:45:56 >>> Sintaxis incorrecta cerca de '='.
